@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/ankittomar0207/demo-app/'
+     git 'https://github.com/ankittomar0207/demo-app'
    }
    stage('Deploy to Tomcat'){
       
